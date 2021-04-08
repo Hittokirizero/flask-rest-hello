@@ -134,9 +134,9 @@ class Favorite_SW(db.Model):
 
     def serialize_favorite(self):
         return {
-            "id_favorite": self.id_favorite ,
-            "user_id_fk": self.user_id_fk ,
-            "planets_id_fk": self.planets_id_fk ,
-            "people_id_fk": self.people_id_fk ,
-            "type_favorite": self.type_favorite ,
+            "id_favorite": self.id_favorite,
+            "user_id_fk": self.user_id_fk,
+            "planets_id_fk": self.planets_id_fk,
+            "people_id_fk": self.people_id_fk,
+            "type_favorite": self.type_favorite
     }
